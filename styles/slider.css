@@ -1,0 +1,26 @@
+.slider__title {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--orange);
+    background-color: var(--white);
+    padding: 1em 0;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination-bullet-active {
+    --swiper-theme-color: var(--blue-gradient);
+}
+
+.swiper-pagination {
+    position: initial;
+    margin-block: 0.5em;
+}
